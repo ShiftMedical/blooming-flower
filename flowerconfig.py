@@ -1,4 +1,4 @@
 import os
 
-persistent = False
+persistent = True
 port = int(os.getenv("PORT", str(5555)))
