@@ -8,12 +8,11 @@
 			"description": "Enables HTTP Basic authentication. See http://flower.readthedocs.org/en/latest/config.html#basic-auth.",
 			"value": ""
 		}
-	}
-},
-"addons": [
+	},
+	"addons": [
 
-],
-"buildpacks": [{
-	"url": "urn:buildpack:heroku/python"
-}]
+	],
+	"buildpacks": [{
+		"url": "urn:buildpack:heroku/python"
+	}]
 }
