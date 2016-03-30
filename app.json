@@ -1,0 +1,11 @@
+{
+  "name": "master",
+  "scripts": {},
+  "env": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/python"
+    }
+  ]
+}
