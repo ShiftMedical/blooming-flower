@@ -1,15 +1,18 @@
 {
-  "name": "blooming-flower",
-  "scripts": {
-  },
-  "env": {
-  },
-  "addons": [
+	"name": "blooming-flower",
+	"website": "https://github.com/ShiftMedical/blooming-flower",
+	"repository": "https://github.com/ShiftMedical/blooming-flower",
+	"scripts": {},
+	"env": {
+		"FLOWER_BASIC_AUTH": {
+			"description": "Enables HTTP Basic authentication. See http://flower.readthedocs.org/en/latest/config.html#basic-auth.",
+			"value": ""
+		}
+	},
+	"addons": [
 
-  ],
-  "buildpacks": [
-    {
-      "url": "urn:buildpack:heroku/python"
-    }
-  ]
+	],
+	"buildpacks": [{
+		"url": "urn:buildpack:heroku/python"
+	}]
 }
